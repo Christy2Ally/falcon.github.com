@@ -1,0 +1,48 @@
+body	{
+    background: url(../img/galaxy.png);
+	background-size:2200px;
+	background-position: center;
+}
+.loginBox{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+
+.logo{
+	position: absolute;
+	height: 250px;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+.login{
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	
+}
+a{
+	color: rgba(255,255,255,1.00)
+}
+.loginBox input[type="text"], [type="password"]{
+	width: 200px;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+}
+.loginBox button[type="submit"]{
+	width: 200px;
+	height: 30px;
+	border: none;
+	outline: none;
+	color: rgba(0,0,0,0.53);
+	background-color: rgba(255,255,255,1.00);
+	border-radius: 20px;
+	
+}
